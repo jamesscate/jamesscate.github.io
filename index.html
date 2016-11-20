@@ -1,3 +1,6 @@
 ---
-layout: front
+layout: default
+title: Introduction
 ---
+{% capture index %}{% include index.md %}{% endcapture %}
+{{ index | markdownify }}
